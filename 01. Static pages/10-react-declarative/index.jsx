@@ -19,3 +19,7 @@ Don't use innerHTML to accomplish any of this.
     
 */
 
+const h1Element = document.createElement("h1");
+h1Element.textContent = "Hello, React!";
+h1Element.className = "header";
+document.getElementById("root").appendChild(h1Element);
